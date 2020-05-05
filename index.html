@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PokeQuiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="logo">PokeQuiz</h1>
+        <div class="guess">
+            <input type="text" disabled>
+            <!-- <button class="check" disabled>Sprawdź</button> -->
+            <button class="start">Start</button>
+            <p class="timer">00:00</p>
+            <p class="result"> 0/807 odgadniętych</p>
+        </div>
+        <div class="answers">
+            <div class="kanto region">
+                <h2>Kanto</h2>
+            </div>
+            <div class="johto region">
+                <h2>Johto</h2>
+            </div>
+            <div class="hoenn region">
+                <h2>Hoenn</h2>
+            </div>
+            <div class="sinnoh region">
+                <h2>Sinnoh</h2>
+            </div>
+            <div class="unova region">
+                <h2>Unova</h2>
+            </div>
+            <div class="kalos region">
+                <h2>Kalos</h2>
+            </div>
+            <div class="alola region">
+                <h2>Alola</h2>
+            </div>
+        </div>
+        <div class="summary">
+            <table>
+                <thead>
+                    <td>Region</td>
+                    <td>Wynik</td>
+                    <td>Procent</td>
+                </thead>
+                <tr class="sumKanto">
+                    <td>Kanto</td>
+                    <td></td>
+                    <td></td>
+                </tr class="">
+                <tr class="sumJohto">
+                    <td>Johto</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="sumHoenn">
+                    <td>Hoenn</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="sumSinnoh">
+                    <td>Sinnoh</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="sumUnova">
+                    <td>Unova</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="sumKalos">
+                    <td>Kalos</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="sumAlola">
+                    <td>Alola</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="sumAll">
+                    <td>Razem</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <button class="closeSummary">Zamknij</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
